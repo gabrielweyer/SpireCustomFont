@@ -7,11 +7,16 @@ When saving to a stream, Spire replaces the custom font I'm using by the previou
 ## Configuration
 
 - Windows 7 Enterprise SP1 64-bit
+  - Location: Australia
+  - Format: English (Australia)
+  - Display language: English
+  - Keyboard: English (Australia) - US
 - Visual Studio Premium 2013
 - `Spire.Doc.dll` version `5.7.0.3040` (trial version)
+- `Spire.License.dll` version `1.3.5.40`
 - .NET 4.5
 
-**Note**: I've tried using version `5.7.117.3040` which seems to be the latest version and obtained different results but the bug is still there albeit it's slightly different (it only impacts the inline CSS at the top).
+**Note**: I've tried using version `Spire.Doc.dll 5.7.117.3040` and `Spire.License.dll 1.3.5.40` which seems to be the latest version and obtained different results but the bug is still there albeit it's slightly different (it only impacts the inline CSS at the top).
 
 ## Open the file and configure the HTML exporting
 
